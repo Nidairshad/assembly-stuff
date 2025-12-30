@@ -1,5 +1,5 @@
 ; Q10 - File Handling Program
-
+;NOTE THAT YOUR FILE WOULD BE SAVED IN MyBuild folder as no path specified/
 newLine macro
   mov dl,13
   mov ah,02h
@@ -71,3 +71,4 @@ exitProgram:
     int 21h
 main endp
 end main
+
