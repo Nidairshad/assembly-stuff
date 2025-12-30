@@ -1,7 +1,7 @@
 ;program to check pass word and user id and the window then turns colourful
 ;using graphical interrupts  
 
-;TODO FROM GRAPHICAL INTERUUPTS
+
 macro activeColour 
     
     MOV AH, 06h      ; BIOS scroll up function
@@ -252,5 +252,6 @@ failID:
     ret
     check_id endp
 end main
+
 
 
